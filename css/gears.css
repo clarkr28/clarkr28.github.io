@@ -63,7 +63,7 @@
   height: 400px;
   position: relative;
   top: 80px;
-  left: 450px;
+  left: 350px;
   z-index: 2;
 
   /* add the rotate animation */
@@ -88,7 +88,7 @@
   height: 200px;
   position: relative;
   top: -170px;
-  left: 400px;
+  left: 300px;
   z-index: 2;
 
   /* add the rotate animation */
@@ -114,7 +114,7 @@
   height: 200px;
   position: relative;
   top:-25px;
-  left: -350px;
+  left: -450px;
   z-index: 2;
 
   /* add the rotate animation */
@@ -139,8 +139,8 @@
   height: 300px;
   position: relative;
   z-index: 1;
-  left: -140px;
-  top: 170px;
+  left: 550px;
+  top: -100px;
 
   /* add the rotate animation */
   -webkit-animation-name: webRotateBackward;
