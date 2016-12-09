@@ -24,3 +24,22 @@ h2 {
 .bottom {
   height: 40px;
 }
+
+@media (max-width: 600px) {
+  .flexbox-row {
+    flex-direction: column;
+  }
+
+  .large-flexbox-element-left {
+    padding: 0 20px;
+  }
+
+  .large-flexbox-element-right {
+    padding-right: 0;
+    margin: 0 20px;
+  }
+
+  #android {
+    flex-direction: column-reverse;
+  }
+}
