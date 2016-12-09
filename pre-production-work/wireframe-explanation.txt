@@ -1,0 +1,14 @@
+A couple quick words about the two wireframes I made
+
+homepage:
+My plan is to have the gears rotating together on the actual webpage.  I have no clue how to do
+that, but I'd like to figure it out.  The words in the top right are links to their respective 
+pages.  
+
+AboutPage:
+The header is going to be the same as the header on the homepage.  I only drew this page as 
+portrait becasue there was more content on this page compared to the homepage.  I'd like to 
+combine my "hobbies" and "personal interest" cards into a single hobbies category.  Even though
+I had a lot of different content in those two sections from the work I did last week, I would 
+like to combine them.  They are essentially the same thing, so I might as well make it one
+section.
