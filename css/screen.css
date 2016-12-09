@@ -1,0 +1,103 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  width: 1300px;
+  background: #fff;
+  margin: 0px auto;
+  height: 100%;
+  font-family: 'Raleway', 'sans-serif';
+}
+
+.content {
+  background: #ddd;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  height: 100%;
+}
+
+nav {
+  background: rgba(255, 185, 112, 1);
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.nav-angle {
+  height: 0;
+  border-top: 20px solid rgba(255, 185, 112, 1);
+  border-left: 1300px solid transparent;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-element {
+  flex: 1 1 1;
+  margin: 10px auto;
+  padding: 10px 25px;
+  text-align: center;
+  font-family: 'Unica One', cursive;
+  font-size: 25px;
+}
+
+.nav-element-home {
+  flex: 6 1 0;
+  margin: 10px auto;
+  padding: 10px 10px 10px 30px;
+  text-align: left;
+  font-family: 'Unica One', cursive;
+  font-size: 25px;
+}
+
+h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  padding: 0 15px 5px 0;
+  margin: 75px auto 40px auto;
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 2px solid #444;
+  border-right: 2px solid #444;
+  border-radius: 0 0 10px 0;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.padding {
+  height: 300px;
+}
+
+.indented-paragraph {
+  padding-left: 25px;
+  padding-right: 60px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.normal-paragraph {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.flexbox-row {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.green {
+  color: green;
+}
+
+.dark-blue {
+  color: rgba(0, 65, 165, 1);
+}
+
+.light-blue {
+  color: rgba(97, 210, 255, 1);
+}

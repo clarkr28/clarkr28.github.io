@@ -1,0 +1,26 @@
+/* css for the CSE page */
+
+.small-flexbox-element.fa {
+  flex: 1 1 0;
+  font-size: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.large-flexbox-element-left {
+  flex: 4 1 0;
+  padding-left: 50px;
+}
+
+.large-flexbox-element-right {
+  flex: 4 1 0;
+  padding-right: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.bottom {
+  height: 75px;
+}

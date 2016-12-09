@@ -1,0 +1,160 @@
+/* css to place and animate the gears on the homepage */
+
+@-webkit-keyframes webRotateForward {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes webRotateBackward {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+@-moz-keyframes mozRotateForward {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes mozRotateBackward {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(-360deg);
+  }
+}
+
+@-ms-keyframes rotateForward {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes rotateBackward {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to
+    -ms-transform: rotate(-360deg);
+  }
+}
+
+.gear-display {
+  position: relative;
+}
+
+.big-blue-gear {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 80px;
+  left: 450px;
+  z-index: 2;
+
+  /* add the rotate animation */
+  -webkit-animation-name: webRotateForward;
+  -webkit-animation-duration: 16s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name: mozRotateForward;
+  -moz-animation-duration: 16s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
+  -ms-animation-name: rotateForward;
+  -ms-animation-duration: 16s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+}
+
+.small-light-blue-gear {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -170px;
+  left: 400px;
+  z-index: 2;
+
+  /* add the rotate animation */
+
+  -webkit-animation-name: webRotateBackward;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name: mozRotateBackward;
+  -moz-animation-duration: 8s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
+  -ms-animation-name: rotate;
+  -ms-animation-duration: 8s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+}
+
+.small-black-gear {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top:-25px;
+  left: -350px;
+  z-index: 2;
+
+  /* add the rotate animation */
+  -webkit-animation-name: webRotateBackward;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name: mozRotateBackward;
+  -moz-animation-duration: 8s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
+  -ms-animation-name: rotate;
+  -ms-animation-duration: 8s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+}
+
+.small-grey-gear {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+  left: -140px;
+  top: 170px;
+
+  /* add the rotate animation */
+  -webkit-animation-name: webRotateBackward;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name: mozRotateBackward;
+  -moz-animation-duration: 20s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
+  -ms-animation-name: rotate;
+  -ms-animation-duration: 20s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+}
