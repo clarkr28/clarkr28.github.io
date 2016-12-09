@@ -33,6 +33,11 @@
 
   .cymbal-picture {
     margin: 0 auto;
+    display: block;
+    max-width: 270px;
+    max-height: 270px;
+    width: 75%;
+    height: auto;
   }
 
   .element-right {

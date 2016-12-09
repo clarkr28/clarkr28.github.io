@@ -1,12 +1,12 @@
 /* styling for the Contact page */
 
-section {
+.flexbox-row div {
   flex: 1 1 0;
 }
 
 .flexbox-row {
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 a:hover {
@@ -26,4 +26,15 @@ a:hover {
 
 #contact-info {
   margin-top: 60px;
+}
+
+@media (max-width: 700px) {
+  .flexbox-row {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #find-friends {
+    width: 90%;
+  }
 }
