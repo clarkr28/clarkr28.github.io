@@ -21,3 +21,29 @@
   border-radius: 153px 153px 153px 0px;
   border: 18px solid rgba(255, 185, 112, 1);
 }
+
+@media (max-width: 1100px) {
+  h1 {
+      margin-top: 55px;
+  }
+
+  .two-column-flexbox {
+    flex-direction: column;
+  }
+
+  .element-left {
+    margin: 10px auto;
+  }
+
+  .cymbal-picture {
+    margin: 0 auto;
+  }
+
+  .element-right {
+    padding-left: 20px;
+  }
+
+  .indented-paragraph {
+    padding-right: 40px;
+  }
+}
