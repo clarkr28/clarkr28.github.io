@@ -36,7 +36,7 @@
   }
 }
 
-@-ms-keyframes rotateForward {
+@-ms-keyframes msRotateForward {
   from {
     -ms-transform: rotate(0deg);
   }
@@ -45,7 +45,7 @@
   }
 }
 
-@-ms-keyframes rotateBackward {
+@-ms-keyframes msRotateBackward {
   from {
     -ms-transform: rotate(0deg);
   }
@@ -58,7 +58,7 @@
   position: relative;
 }
 
-.big-blue-gear {
+#big-blue-gear {
   width: 400px;
   height: 400px;
   position: relative;
@@ -77,13 +77,13 @@
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
 
-  -ms-animation-name: rotateForward;
+  -ms-animation-name: msRotateForward;
   -ms-animation-duration: 16s;
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
 }
 
-.small-light-blue-gear {
+#small-light-blue-gear {
   width: 200px;
   height: 200px;
   position: relative;
@@ -103,17 +103,17 @@
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
 
-  -ms-animation-name: rotate;
+  -ms-animation-name: msRotateBackward;
   -ms-animation-duration: 8s;
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
 }
 
-.small-black-gear {
+#small-black-gear {
   width: 200px;
   height: 200px;
   position: relative;
-  top:-25px;
+  top: -18px;
   left: -450px;
   z-index: 2;
 
@@ -128,13 +128,13 @@
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
 
-  -ms-animation-name: rotate;
+  -ms-animation-name: msRotateBackward;
   -ms-animation-duration: 8s;
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
 }
 
-.small-grey-gear {
+#small-grey-gear {
   width: 300px;
   height: 300px;
   position: relative;
@@ -153,8 +153,28 @@
   -moz-animation-iteration-count: infinite;
   -moz-animation-timing-function: linear;
 
-  -ms-animation-name: rotate;
+  -ms-animation-name: msRotateBackward;
   -ms-animation-duration: 20s;
   -ms-animation-iteration-count: infinite;
   -ms-animation-timing-function: linear;
+}
+
+@media (max-width: 1100px) {
+  #big-blue-gear {
+    display: none;
+  }
+
+  #small-grey-gear {
+    display: none;
+  }
+
+  #small-light-blue-gear {
+    position: static;
+    display: block;
+    margin: 50px auto 75px auto;
+  }
+
+  #small-black-gear {
+    display: none;
+  }
 }
