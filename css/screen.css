@@ -101,3 +101,7 @@ h2 {
 .center {
   text-align: center;
 }
+
+#fade-in {
+  display: none;
+}
