@@ -39,6 +39,10 @@ h2 {
     margin: 20px 20px;
   }
 
+  .small-flexbox-element {
+    margin: 0 auto;
+  }
+
   #android {
     flex-direction: column-reverse;
   }
