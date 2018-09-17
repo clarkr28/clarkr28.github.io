@@ -102,6 +102,11 @@ h2 {
   text-align: center;
 }
 
+.normal {
+  color: blue;
+  text-decoration: underline;
+}
+
 #fade-in {
   display: none;
 }
