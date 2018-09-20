@@ -39,7 +39,7 @@ h2 {
     margin: 20px 20px;
   }
 
-  #android {
+  #reverse-order {
     flex-direction: column-reverse;
   }
 }
